@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3F7ABD2A2DC7E02B00E8B860 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7ABD282DC7E02000E8B860 /* Photos.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3F00A02C2DC3AD2800ED1C17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,28 @@
 		3F00A0182DC3AD2600ED1C17 /* PhotoQuizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoQuizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F00A02B2DC3AD2800ED1C17 /* PhotoQuizzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoQuizzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F00A0352DC3AD2800ED1C17 /* PhotoQuizzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoQuizzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7ABD282DC7E02000E8B860 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3FB10E172DC6D33900ABE7B3 /* Exceptions for "PhotoQuizz" folder in "PhotoQuizz" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3F00A0172DC3AD2600ED1C17 /* PhotoQuizz */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3F00A01A2DC3AD2600ED1C17 /* PhotoQuizz */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FB10E172DC6D33900ABE7B3 /* Exceptions for "PhotoQuizz" folder in "PhotoQuizz" target */,
+			);
+			explicitFolders = (
+				LocalPhotos,
+			);
 			path = PhotoQuizz;
 			sourceTree = "<group>";
 		};
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7ABD2A2DC7E02B00E8B860 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,7 @@
 				3F00A01A2DC3AD2600ED1C17 /* PhotoQuizz */,
 				3F00A02E2DC3AD2800ED1C17 /* PhotoQuizzTests */,
 				3F00A0382DC3AD2800ED1C17 /* PhotoQuizzUITests */,
+				3F7ABD272DC7E01F00E8B860 /* Frameworks */,
 				3F00A0192DC3AD2600ED1C17 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +113,14 @@
 				3F00A0352DC3AD2800ED1C17 /* PhotoQuizzUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7ABD272DC7E01F00E8B860 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7ABD282DC7E02000E8B860 /* Photos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,12 +426,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XKFAS389Q8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_FILE = PhotoQuizz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PhotoQuizz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -412,6 +445,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
 			};
 			name = Debug;
 		};
@@ -420,12 +454,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XKFAS389Q8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_FILE = PhotoQuizz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PhotoQuizz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -437,6 +473,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
 			};
 			name = Release;
 		};
