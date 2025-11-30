@@ -75,7 +75,6 @@ final class PhotoLibraryService {
                 assets = PHAsset.fetchAssets(with: .image, options: fetchOptions)
             } else {
                 // Fetch from specific albums
-                let albumOptions = PHFetchOptions()
                 let albumAssets = PHAsset.fetchAssets(with: .image, options: fetchOptions)
 
                 // Filter by album membership

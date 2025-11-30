@@ -3,177 +3,175 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05E595D867E5A1255E8997C7 /* GeocodingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED040EB0BBC4BCDC69A36D /* GeocodingService.swift */; };
-		19C9E5F199AC6337CCDB5481 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A759FDEAF0D95BF0A72079 /* GameSession.swift */; };
-		4AD0E26A1EF02086544DE272 /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C799603104AAF266323127B /* PhotoItem.swift */; };
-		6AEA9246AFA66F14DADE1569 /* LocationReveal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBED25A35640058E11482C4 /* LocationReveal.swift */; };
-		6F54EA69C009AE36473C48E1 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046566B72FDDC88FD01AF79 /* UserSettings.swift */; };
-		7E1E6B3E2B181B28A71FC32A /* PermissionRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC4E70C5CDE0334EC5B3DF /* PermissionRequestView.swift */; };
-		8418AC4885DB27EBD328B141 /* PhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E769E52D05DBD354D9AB2B4 /* PhotoAlbum.swift */; };
-		8E37239A8F6201AEE917C0B0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3B4518873E4029DE2AF5D8 /* HomeView.swift */; };
-		A2352E234CC8407ED9D44151 /* AlbumGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285672EB2980C8EC616506DB /* AlbumGridItem.swift */; };
-		A2D29FD7EDA7B1D9845D5EEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8638A0A9DB6A3E37059560C9 /* ContentView.swift */; };
-		A639C6C58B7F85E8E6BFB219 /* PhotoQuizzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD36BDB33A904918E7FEE12 /* PhotoQuizzApp.swift */; };
-		A64983AD8D721695CAFB8514 /* TileRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFBBF05158CBD14D289F07 /* TileRevealView.swift */; };
-		AEDC931718B693E6468BC737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3A991CBB2D78C82B775B2 /* Assets.xcassets */; };
-		B1BF497DDE702DC982FB7A30 /* GameSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D302B4344FE70DEA415D7E /* GameSessionView.swift */; };
-		B20D52CF6DEEB743FF852FFF /* LocationRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B258973EDFB6C5EEEA2C338 /* LocationRevealView.swift */; };
-		BB91C063EC59C51C68E81F77 /* PermissionDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470C6B6668751A7C31BD40B /* PermissionDeniedView.swift */; };
-		C3E9F9C292F57A74D248B5D0 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D16FD2ECB492A363B854CC /* TimerView.swift */; };
-		D9DBF81F8D488AB4EB6BC287 /* CLLocation+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE997640A4672441324853 /* CLLocation+Formatting.swift */; };
-		DDE7DF00AD146A518BD1E364 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D321C76059CB4A9BF3A8C17 /* SettingsService.swift */; };
-		E1DB55385893DE224D7C67F3 /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D890034CA25BB1EAC5412EF6 /* PhotoLibraryService.swift */; };
-		E30BDE3E57C61AC4C5E57942 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA06E602BD6EB44CDA590319 /* SettingsView.swift */; };
-		F76B2E7D7833242B256A9BA4 /* AlbumSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F402856FD80ABBC24A83A /* AlbumSelectionView.swift */; };
+		05888C55AF96F6DCA820DEEA /* CLLocation+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E62CB39112E80E36F1D383 /* CLLocation+Formatting.swift */; };
+		1C1292E75AC02C36594E0AF1 /* LocationReveal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C02BF597DE5E42DC4A17630 /* LocationReveal.swift */; };
+		1F39C1EA8B722FD0B341D59E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D7AD55350726F9E002348 /* HomeView.swift */; };
+		2274FEE2CE11850C91D1FA39 /* AlbumSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423C6E601A71DEC4FD8B95B9 /* AlbumSelectionView.swift */; };
+		4C8A259BCD6B008DCE163A37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064B3297F078505ABAF7857B /* ContentView.swift */; };
+		5EEA8CC4C3E9D70A103434DA /* PermissionDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09A50CBAACCEEE6F8B12432 /* PermissionDeniedView.swift */; };
+		5F9F808A70FC4C006F1BD7E0 /* TileRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6A7453D879CFBD2F3EE4C /* TileRevealView.swift */; };
+		8313AE37FCB8BD48C318B42B /* AlbumGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE778B3EB4C649D0CEBAE86 /* AlbumGridItem.swift */; };
+		8482C53CC00AC733FBFEADB6 /* LocationRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBF2EAD484B2E15353BD6F0 /* LocationRevealView.swift */; };
+		8953E9279404B0F1818F9F5C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3A170C27E896043B2AB61 /* SettingsView.swift */; };
+		8D7687FA5F47F642C3844773 /* GeocodingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6064D5DFC981968F4088E /* GeocodingService.swift */; };
+		8F0D11F8A007B19983A35556 /* GameSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237B5F573B5B09ECBD18B20 /* GameSessionView.swift */; };
+		90A65CB9E625871F48443E36 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED77123ADCE08E8E8545C552 /* UserSettings.swift */; };
+		9880A4C447FB26D7A8B0FF70 /* PhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5DE8C83C5BE13EEEC52E8 /* PhotoAlbum.swift */; };
+		9ADB2E66C081379469A7505E /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CA1807EA2BD9C70D770796 /* PhotoItem.swift */; };
+		9ED220A8652730B8A16867C6 /* PermissionRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A8F1D390E6D928753782B /* PermissionRequestView.swift */; };
+		A0832B4062BBCAE5633E8053 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18392A14877F134FA3B318 /* TimerView.swift */; };
+		A3E0E8168E57B69C3331D0F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E9B42D0B0A4E487B1C9F5A /* Assets.xcassets */; };
+		A8C2C2085D533B991D838110 /* PhotoQuizzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133FB60BA5351EAD0839234 /* PhotoQuizzApp.swift */; };
+		BC1235FC91719D22C4E0EC88 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94CEDBF6A1341169DC561D /* SettingsService.swift */; };
+		CF852C58765EE8A0FA1E8C43 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616EB927FAF660895898CE00 /* GameSession.swift */; };
+		D9459EE1E8F08802AEE7873F /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3124D83FE21B2D7C0DF78 /* PhotoLibraryService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01ED040EB0BBC4BCDC69A36D /* GeocodingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingService.swift; sourceTree = "<group>"; };
-		1BD36BDB33A904918E7FEE12 /* PhotoQuizzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoQuizzApp.swift; sourceTree = "<group>"; };
-		285672EB2980C8EC616506DB /* AlbumGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumGridItem.swift; sourceTree = "<group>"; };
-		2C799603104AAF266323127B /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
-		32D16FD2ECB492A363B854CC /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
-		4046566B72FDDC88FD01AF79 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
-		4B258973EDFB6C5EEEA2C338 /* LocationRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRevealView.swift; sourceTree = "<group>"; };
-		4CFC4E70C5CDE0334EC5B3DF /* PermissionRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestView.swift; sourceTree = "<group>"; };
-		5D321C76059CB4A9BF3A8C17 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
-		65D302B4344FE70DEA415D7E /* GameSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSessionView.swift; sourceTree = "<group>"; };
-		6E769E52D05DBD354D9AB2B4 /* PhotoAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbum.swift; sourceTree = "<group>"; };
-		704F402856FD80ABBC24A83A /* AlbumSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSelectionView.swift; sourceTree = "<group>"; };
-		76FE997640A4672441324853 /* CLLocation+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Formatting.swift"; sourceTree = "<group>"; };
-		8638A0A9DB6A3E37059560C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A470C6B6668751A7C31BD40B /* PermissionDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionDeniedView.swift; sourceTree = "<group>"; };
-		A5A759FDEAF0D95BF0A72079 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
-		B26D0CE3C7294D555DEA8491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		CB3B4518873E4029DE2AF5D8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		D890034CA25BB1EAC5412EF6 /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
-		DCC3A991CBB2D78C82B775B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DEB7A71EF37871805FB49CF6 /* PhotoQuizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoQuizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8DFBBF05158CBD14D289F07 /* TileRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileRevealView.swift; sourceTree = "<group>"; };
-		EBBED25A35640058E11482C4 /* LocationReveal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationReveal.swift; sourceTree = "<group>"; };
-		FA06E602BD6EB44CDA590319 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		064B3297F078505ABAF7857B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F2D7AD55350726F9E002348 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		37E9B42D0B0A4E487B1C9F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41F6A7453D879CFBD2F3EE4C /* TileRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileRevealView.swift; sourceTree = "<group>"; };
+		423C6E601A71DEC4FD8B95B9 /* AlbumSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSelectionView.swift; sourceTree = "<group>"; };
+		42E3A170C27E896043B2AB61 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4BD3124D83FE21B2D7C0DF78 /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
+		4C02BF597DE5E42DC4A17630 /* LocationReveal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationReveal.swift; sourceTree = "<group>"; };
+		56E62CB39112E80E36F1D383 /* CLLocation+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Formatting.swift"; sourceTree = "<group>"; };
+		5E94CEDBF6A1341169DC561D /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		616EB927FAF660895898CE00 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		7AB5DE8C83C5BE13EEEC52E8 /* PhotoAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbum.swift; sourceTree = "<group>"; };
+		7F396C3DF0FF98AC6F7FAC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A09A50CBAACCEEE6F8B12432 /* PermissionDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionDeniedView.swift; sourceTree = "<group>"; };
+		BCE778B3EB4C649D0CEBAE86 /* AlbumGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumGridItem.swift; sourceTree = "<group>"; };
+		D237B5F573B5B09ECBD18B20 /* GameSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSessionView.swift; sourceTree = "<group>"; };
+		D5B6064D5DFC981968F4088E /* GeocodingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingService.swift; sourceTree = "<group>"; };
+		DE18392A14877F134FA3B318 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		DEB7A71EF37871805FB49CF6 /* PhotoQuizz.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PhotoQuizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E133FB60BA5351EAD0839234 /* PhotoQuizzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoQuizzApp.swift; sourceTree = "<group>"; };
+		E9CA1807EA2BD9C70D770796 /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
+		EBBF2EAD484B2E15353BD6F0 /* LocationRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRevealView.swift; sourceTree = "<group>"; };
+		ED77123ADCE08E8E8545C552 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		F26A8F1D390E6D928753782B /* PermissionRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		05C3BA18D473E7B148CA9A6F /* Features */ = {
+		0BE1A970FF0FAE8ADBFDDE7A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3FAF738878D5E763F98CCC51 /* AlbumSelection */,
-				4160309BB97D97FC254C5D66 /* Game */,
-				2A8EF2297527C32FFF10C93C /* Home */,
-				F96297D127B00923DCE04A50 /* Onboarding */,
-				3349C1775BC7278168799BE5 /* Settings */,
+				37E9B42D0B0A4E487B1C9F5A /* Assets.xcassets */,
 			);
-			path = Features;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		2A8EF2297527C32FFF10C93C /* Home */ = {
+		0D0BEA266F21DDD2734A676A /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				CB3B4518873E4029DE2AF5D8 /* HomeView.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		3349C1775BC7278168799BE5 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				FA06E602BD6EB44CDA590319 /* SettingsView.swift */,
+				42E3A170C27E896043B2AB61 /* SettingsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		363EB2E368190391234FED37 /* PhotoQuizz */ = {
+		15CFA1DB38BDA520C4E345D7 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				5E0E888127A8B54CA6D5F565 /* App */,
-				DA0B71C2E85626F596E21A93 /* Extensions */,
-				05C3BA18D473E7B148CA9A6F /* Features */,
-				46431F395B6E773B4D6C298B /* Models */,
-				CF34AA5D9371F45823371159 /* Resources */,
-				E1CB94DD84BABFFAEB892D7B /* Services */,
-				B26D0CE3C7294D555DEA8491 /* Info.plist */,
+				064B3297F078505ABAF7857B /* ContentView.swift */,
+				E133FB60BA5351EAD0839234 /* PhotoQuizzApp.swift */,
 			);
-			path = PhotoQuizz;
+			path = App;
 			sourceTree = "<group>";
 		};
-		3FAF738878D5E763F98CCC51 /* AlbumSelection */ = {
+		2E4382FDBF1FA2969F4BC19E /* AlbumSelection */ = {
 			isa = PBXGroup;
 			children = (
-				285672EB2980C8EC616506DB /* AlbumGridItem.swift */,
-				704F402856FD80ABBC24A83A /* AlbumSelectionView.swift */,
+				BCE778B3EB4C649D0CEBAE86 /* AlbumGridItem.swift */,
+				423C6E601A71DEC4FD8B95B9 /* AlbumSelectionView.swift */,
 			);
 			path = AlbumSelection;
-			sourceTree = "<group>";
-		};
-		4160309BB97D97FC254C5D66 /* Game */ = {
-			isa = PBXGroup;
-			children = (
-				65D302B4344FE70DEA415D7E /* GameSessionView.swift */,
-				4B258973EDFB6C5EEEA2C338 /* LocationRevealView.swift */,
-				E8DFBBF05158CBD14D289F07 /* TileRevealView.swift */,
-				32D16FD2ECB492A363B854CC /* TimerView.swift */,
-			);
-			path = Game;
-			sourceTree = "<group>";
-		};
-		46431F395B6E773B4D6C298B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A5A759FDEAF0D95BF0A72079 /* GameSession.swift */,
-				EBBED25A35640058E11482C4 /* LocationReveal.swift */,
-				6E769E52D05DBD354D9AB2B4 /* PhotoAlbum.swift */,
-				2C799603104AAF266323127B /* PhotoItem.swift */,
-				4046566B72FDDC88FD01AF79 /* UserSettings.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		4E53C19A77B5757C159BB65A = {
 			isa = PBXGroup;
 			children = (
-				363EB2E368190391234FED37 /* PhotoQuizz */,
+				7BD18AB8FE4D740AE1C660D1 /* PhotoQuizz */,
 				EE511F5E5BCE1F8F4A6E2D63 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5E0E888127A8B54CA6D5F565 /* App */ = {
+		4F3EDA31A3E7A328AB64EB3C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				8638A0A9DB6A3E37059560C9 /* ContentView.swift */,
-				1BD36BDB33A904918E7FEE12 /* PhotoQuizzApp.swift */,
+				1F2D7AD55350726F9E002348 /* HomeView.swift */,
 			);
-			path = App;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		CF34AA5D9371F45823371159 /* Resources */ = {
+		635D2E48CADA765467C31E3F /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				DCC3A991CBB2D78C82B775B2 /* Assets.xcassets */,
+				A09A50CBAACCEEE6F8B12432 /* PermissionDeniedView.swift */,
+				F26A8F1D390E6D928753782B /* PermissionRequestView.swift */,
 			);
-			path = Resources;
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		DA0B71C2E85626F596E21A93 /* Extensions */ = {
+		69EDDFD649E65371BA332D47 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				76FE997640A4672441324853 /* CLLocation+Formatting.swift */,
+				D5B6064D5DFC981968F4088E /* GeocodingService.swift */,
+				4BD3124D83FE21B2D7C0DF78 /* PhotoLibraryService.swift */,
+				5E94CEDBF6A1341169DC561D /* SettingsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6AC5775B2D0A4E7D5C8533A0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2E4382FDBF1FA2969F4BC19E /* AlbumSelection */,
+				EEB3694F26A7294ED67A9333 /* Game */,
+				4F3EDA31A3E7A328AB64EB3C /* Home */,
+				635D2E48CADA765467C31E3F /* Onboarding */,
+				0D0BEA266F21DDD2734A676A /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7BD18AB8FE4D740AE1C660D1 /* PhotoQuizz */ = {
+			isa = PBXGroup;
+			children = (
+				15CFA1DB38BDA520C4E345D7 /* App */,
+				82DE41ECFEA273866195A0CB /* Extensions */,
+				6AC5775B2D0A4E7D5C8533A0 /* Features */,
+				BF12D3F3E5196464EAB1E6A0 /* Models */,
+				0BE1A970FF0FAE8ADBFDDE7A /* Resources */,
+				69EDDFD649E65371BA332D47 /* Services */,
+				7F396C3DF0FF98AC6F7FAC53 /* Info.plist */,
+			);
+			path = PhotoQuizz;
+			sourceTree = "<group>";
+		};
+		82DE41ECFEA273866195A0CB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				56E62CB39112E80E36F1D383 /* CLLocation+Formatting.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E1CB94DD84BABFFAEB892D7B /* Services */ = {
+		BF12D3F3E5196464EAB1E6A0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				01ED040EB0BBC4BCDC69A36D /* GeocodingService.swift */,
-				D890034CA25BB1EAC5412EF6 /* PhotoLibraryService.swift */,
-				5D321C76059CB4A9BF3A8C17 /* SettingsService.swift */,
+				616EB927FAF660895898CE00 /* GameSession.swift */,
+				4C02BF597DE5E42DC4A17630 /* LocationReveal.swift */,
+				7AB5DE8C83C5BE13EEEC52E8 /* PhotoAlbum.swift */,
+				E9CA1807EA2BD9C70D770796 /* PhotoItem.swift */,
+				ED77123ADCE08E8E8545C552 /* UserSettings.swift */,
 			);
-			path = Services;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		EE511F5E5BCE1F8F4A6E2D63 /* Products */ = {
@@ -184,13 +182,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F96297D127B00923DCE04A50 /* Onboarding */ = {
+		EEB3694F26A7294ED67A9333 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				A470C6B6668751A7C31BD40B /* PermissionDeniedView.swift */,
-				4CFC4E70C5CDE0334EC5B3DF /* PermissionRequestView.swift */,
+				D237B5F573B5B09ECBD18B20 /* GameSessionView.swift */,
+				EBBF2EAD484B2E15353BD6F0 /* LocationRevealView.swift */,
+				41F6A7453D879CFBD2F3EE4C /* TileRevealView.swift */,
+				DE18392A14877F134FA3B318 /* TimerView.swift */,
 			);
-			path = Onboarding;
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +238,7 @@
 			);
 			mainGroup = 4E53C19A77B5757C159BB65A;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -251,7 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDC931718B693E6468BC737 /* Assets.xcassets in Resources */,
+				A3E0E8168E57B69C3331D0F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,27 +263,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2352E234CC8407ED9D44151 /* AlbumGridItem.swift in Sources */,
-				F76B2E7D7833242B256A9BA4 /* AlbumSelectionView.swift in Sources */,
-				D9DBF81F8D488AB4EB6BC287 /* CLLocation+Formatting.swift in Sources */,
-				A2D29FD7EDA7B1D9845D5EEF /* ContentView.swift in Sources */,
-				19C9E5F199AC6337CCDB5481 /* GameSession.swift in Sources */,
-				B1BF497DDE702DC982FB7A30 /* GameSessionView.swift in Sources */,
-				05E595D867E5A1255E8997C7 /* GeocodingService.swift in Sources */,
-				8E37239A8F6201AEE917C0B0 /* HomeView.swift in Sources */,
-				6AEA9246AFA66F14DADE1569 /* LocationReveal.swift in Sources */,
-				B20D52CF6DEEB743FF852FFF /* LocationRevealView.swift in Sources */,
-				BB91C063EC59C51C68E81F77 /* PermissionDeniedView.swift in Sources */,
-				7E1E6B3E2B181B28A71FC32A /* PermissionRequestView.swift in Sources */,
-				8418AC4885DB27EBD328B141 /* PhotoAlbum.swift in Sources */,
-				4AD0E26A1EF02086544DE272 /* PhotoItem.swift in Sources */,
-				E1DB55385893DE224D7C67F3 /* PhotoLibraryService.swift in Sources */,
-				A639C6C58B7F85E8E6BFB219 /* PhotoQuizzApp.swift in Sources */,
-				DDE7DF00AD146A518BD1E364 /* SettingsService.swift in Sources */,
-				E30BDE3E57C61AC4C5E57942 /* SettingsView.swift in Sources */,
-				A64983AD8D721695CAFB8514 /* TileRevealView.swift in Sources */,
-				C3E9F9C292F57A74D248B5D0 /* TimerView.swift in Sources */,
-				6F54EA69C009AE36473C48E1 /* UserSettings.swift in Sources */,
+				8313AE37FCB8BD48C318B42B /* AlbumGridItem.swift in Sources */,
+				2274FEE2CE11850C91D1FA39 /* AlbumSelectionView.swift in Sources */,
+				05888C55AF96F6DCA820DEEA /* CLLocation+Formatting.swift in Sources */,
+				4C8A259BCD6B008DCE163A37 /* ContentView.swift in Sources */,
+				CF852C58765EE8A0FA1E8C43 /* GameSession.swift in Sources */,
+				8F0D11F8A007B19983A35556 /* GameSessionView.swift in Sources */,
+				8D7687FA5F47F642C3844773 /* GeocodingService.swift in Sources */,
+				1F39C1EA8B722FD0B341D59E /* HomeView.swift in Sources */,
+				1C1292E75AC02C36594E0AF1 /* LocationReveal.swift in Sources */,
+				8482C53CC00AC733FBFEADB6 /* LocationRevealView.swift in Sources */,
+				5EEA8CC4C3E9D70A103434DA /* PermissionDeniedView.swift in Sources */,
+				9ED220A8652730B8A16867C6 /* PermissionRequestView.swift in Sources */,
+				9880A4C447FB26D7A8B0FF70 /* PhotoAlbum.swift in Sources */,
+				9ADB2E66C081379469A7505E /* PhotoItem.swift in Sources */,
+				D9459EE1E8F08802AEE7873F /* PhotoLibraryService.swift in Sources */,
+				A8C2C2085D533B991D838110 /* PhotoQuizzApp.swift in Sources */,
+				BC1235FC91719D22C4E0EC88 /* SettingsService.swift in Sources */,
+				8953E9279404B0F1818F9F5C /* SettingsView.swift in Sources */,
+				5F9F808A70FC4C006F1BD7E0 /* TileRevealView.swift in Sources */,
+				A0832B4062BBCAE5633E8053 /* TimerView.swift in Sources */,
+				90A65CB9E625871F48443E36 /* UserSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,9 +418,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = PhotoQuizz_src/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PhotoQuizz;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.family-games";
+				INFOPLIST_FILE = PhotoQuizz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,9 +438,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = PhotoQuizz_src/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PhotoQuizz;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.family-games";
+				INFOPLIST_FILE = PhotoQuizz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -48,8 +48,6 @@ struct LocationReveal: Equatable {
 
     /// Coordinate text for fallback display
     var coordinateText: String {
-        let lat = String(format: "%.4f", coordinate.latitude)
-        let lon = String(format: "%.4f", coordinate.longitude)
         let latDir = coordinate.latitude >= 0 ? "N" : "S"
         let lonDir = coordinate.longitude >= 0 ? "E" : "W"
         return "\(abs(coordinate.latitude).formatted(.number.precision(.fractionLength(4))))° \(latDir), \(abs(coordinate.longitude).formatted(.number.precision(.fractionLength(4))))° \(lonDir)"

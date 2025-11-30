@@ -17,15 +17,15 @@ targets:
     type: application
     platform: tvOS
     sources:
-      - path: PhotoQuizz_src
+      - path: PhotoQuizz
         excludes:
           - "**/.DS_Store"
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.photoquizz.app
-        INFOPLIST_FILE: PhotoQuizz_src/Info.plist
+        INFOPLIST_FILE: PhotoQuizz/Info.plist
         PRODUCT_NAME: PhotoQuizz
-        ASSETCATALOG_COMPILER_APPICON_NAME: App Icon & Top Shelf Image
+        ASSETCATALOG_COMPILER_APPICON_NAME: "App Icon & Top Shelf Image"
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         SWIFT_EMIT_LOC_STRINGS: "YES"
         GENERATE_INFOPLIST_FILE: false
